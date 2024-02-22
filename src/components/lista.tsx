@@ -1,7 +1,7 @@
 /* eslint-disable import/no-unresolved */
 import { cn } from '../cn'
 
-type ListaProps = {
+export type ListaProps = {
   children: React.ReactNode
 } & React.HTMLAttributes<HTMLDivElement>
 
